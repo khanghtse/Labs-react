@@ -1,0 +1,165 @@
+.nav {
+  background-color: rgb(58, 42, 42);
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  padding-top: 15px;
+}
+
+li {
+  list-style: none;
+  margin-right: 100px;
+}
+
+.navList a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  padding: 15px;
+}
+
+.active:hover {
+  background-color: rgb(227, 243, 9);
+  color: black;
+}
+
+/* .nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+}
+
+.navList li {
+  margin-right: 15px;
+}
+
+/* Styles for the menu toggle button */
+.menu-toggle {
+  display: none; /* Hide the button by default */
+}
+
+/* Media query to show/hide the menu toggle button */
+@media (max-width: 768px) {
+  .navList {
+      display: none; /* Hide the menu items by default on smaller screens */
+  }
+
+  .menu-toggle {
+      display: block; /* Show the toggle button on smaller screens */
+  }
+} */
+
+.container {
+  margin: 40px 0;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  background-color: navy;
+  color: aqua;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup img {
+  width: 100%;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.form-control {
+  display: block !important;
+  width: 100%;
+  min-height: 80vh;
+  margin-top: 20px !important;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.form-contact {
+  display: block;
+  width: 100%;
+}
+
+.form-input {
+  width: 60%;
+  margin-left: 15% !important;
+  margin-bottom: 16px !important;
+}
+
+.textarea {
+  resize: none;
+}
+.form-inline{
+  display: flex;
+}
